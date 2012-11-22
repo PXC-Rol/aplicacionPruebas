@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.View;
 
 public class MainActivity extends Activity {
-	String player=new String("master");
+	String player=new String("normalplayer");
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
