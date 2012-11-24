@@ -12,12 +12,16 @@ import android.net.wifi.WifiManager;
 import rpgframework.*;
 
 public class MainActivity extends Activity {
+<<<<<<< HEAD
 	String player=new String("master");
 	WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
 	Boolean hotspotState = false;
 	wifiHotspot hotspot = new wifiHotspot();
 	
 	
+=======
+	String player=new String("normalplayer");
+>>>>>>> 4e42e99d0782e2e0b42701b35514cade8987a4f1
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
